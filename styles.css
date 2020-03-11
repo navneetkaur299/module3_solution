@@ -1,0 +1,85 @@
+
+body {
+ 
+}
+.navbar-brand {
+  font-family: 'Anton', sans-serif;
+  padding: 0px 0px 75px;
+}
+/*This is to remove the underlined feature*/
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand h1 { 
+  color: black;
+  padding-left: 15px;
+}
+.navbar-toggle span {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  border: 1px solid black;
+  margin-top: 20px;
+}
+#collapsable-nav a {
+  color: black;
+  font-weight: bold;
+  border: 1px solid black;
+  text-align: center;
+}
+.my-col {
+  background-color: gray;
+  margin: 10px;
+  color: black;
+  text-align: justify;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  display: inline-block;
+}
+.my-col a {
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+}
+.my-col h3 {
+  text-align: center !important;
+  color: black;
+  font-weight: bold;
+}
+
+.text-center {
+  color: black;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+/********************* Large devices only **************/
+@media (min-width: 1200px) {
+  .col-md-4 {
+  	width: 30%;
+  }
+ }
+/********************* Medium devices only *************/
+@media (min-width: 768px) and (max-width: 1199px) {
+.col-sm-12 {
+  width: 44%;  
+  float: center;
+}
+.col-sm-12:nth-child(3) {
+  width: 90%;
+}
+/********************* Small devices only **************/
+@media (min-width: 468px) and (max-width: 767px) {
+ .col-sm-12 {
+  width: 44%;  
+  float: center;
+}
+.col-sm-12:nth-child(3) {
+  width: 92%;
+  }
+/********************* Extra Small devices only **************/
+@media (max-width: 467px) {
+   /*The standard version.*/
+  }
+}
